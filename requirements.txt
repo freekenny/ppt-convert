@@ -1,0 +1,6 @@
+streamlit
+google-generativeai
+python-pptx
+pillow
+pymupdf
+streamlit-paste-button
