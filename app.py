@@ -154,12 +154,12 @@ def create_pptx(image_list, api_key, model_name):
 
 # ================= 界面 UI =================
 st.set_page_config(page_title="Smart Crop PPTX", page_icon="✂️", layout="wide")
-st.title("✂️ 智能截图 PPTX (最终版)")
+st.title("✂️ 智能截图 PPTX ")
 st.caption("支持 PDF / 多图 / 粘贴板 | 自动修复图片边缘")
 
 with st.sidebar:
     key = st.text_input("Gemini API Key", type="password")
-    model = st.selectbox("Model", ["gemini-2.5-flash", "gemini-2.0-flash"])
+    model = st.selectbox("Model", ["gemini-2.5-flash","gemini-2.5-flash-preview-09-2025"])
 
 # 布局：左上传，右粘贴
 c1, c2 = st.columns(2)
